@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Vladyslav Riazantsev - full-stack developer portfolio with React, Next.js, TypeScript, Node.js, NestJS and PostgreSQL projects."
+    />
+    <title>Vladyslav Riazantsev - Full-Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Vladyslav Riazantsev">
+        <span class="brand-mark">VR</span>
+        <span>Vladyslav Riazantsev</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Full-stack developer based in Prague</p>
+          <h1>Product-facing web apps with clean APIs behind them.</h1>
+          <p class="intro">
+            I build React and Next.js interfaces, Node.js and NestJS APIs, and
+            relational data models that stay understandable after release.
+          </p>
+          <div class="hero-actions" aria-label="Profile links">
+            <a class="button primary" href="https://github.com/R1washere">GitHub</a>
+            <a class="button secondary" href="https://linkedin.com/in/vlad-riazantsev">LinkedIn</a>
+            <a class="button secondary" href="mailto:riazantsev.work@seznam.cz">Email</a>
+          </div>
+        </div>
+
+        <aside class="profile-panel" aria-label="Core stack">
+          <h2>Core Stack</h2>
+          <dl>
+            <div>
+              <dt>Frontend</dt>
+              <dd>React, Next.js, TypeScript, Tailwind CSS, SCSS</dd>
+            </div>
+            <div>
+              <dt>Backend</dt>
+              <dd>Node.js, NestJS, Express.js, REST APIs</dd>
+            </div>
+            <div>
+              <dt>Data</dt>
+              <dd>PostgreSQL, Prisma, SQLite for portfolio demos</dd>
+            </div>
+            <div>
+              <dt>Tools</dt>
+              <dd>Docker, Kubernetes, Git, CI/CD, Playwright</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Selected work</p>
+          <h2>Portfolio projects that mirror real product problems.</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project">
+            <img
+              src="assets/flowforge-dashboard.png"
+              alt="FlowForge dashboard showing workflow automation health and activity"
+            />
+            <div class="project-body">
+              <div class="project-title">
+                <h3>FlowForge</h3>
+                <span>Full-stack</span>
+              </div>
+              <p>
+                Workflow automation demo for SaaS and operations teams, with
+                webhook triggers, scheduled runs, execution logs, RBAC and audit
+                events.
+              </p>
+              <ul>
+                <li>Next.js dashboard and workflow builder</li>
+                <li>NestJS execution and webhook endpoints</li>
+                <li>Prisma schema with seeded review data</li>
+              </ul>
+              <a href="https://github.com/R1washere/flowforge">View repository</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <img
+              src="assets/insighthub-dashboard.png"
+              alt="InsightHub analytics dashboard with product metrics and reports"
+            />
+            <div class="project-body">
+              <div class="project-title">
+                <h3>InsightHub</h3>
+                <span>Full-stack</span>
+              </div>
+              <p>
+                Product analytics demo for B2B SaaS teams, covering event
+                ingestion, API keys, dashboards, event exploration, funnels and a
+                small browser SDK.
+              </p>
+              <ul>
+                <li>Authentication and project-scoped API keys</li>
+                <li>Event ingestion with rate limiting</li>
+                <li>Funnel reports and browser tracking SDK</li>
+              </ul>
+              <a href="https://github.com/R1washere/insighthub">View repository</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split" id="experience">
+        <div>
+          <p class="eyebrow">Experience</p>
+          <h2>Frontend roots, full-stack ownership.</h2>
+        </div>
+        <div class="timeline" aria-label="Work experience">
+          <article>
+            <span>2024 - 2026</span>
+            <h3>Full-Stack Developer - 1KOMMA5°</h3>
+            <p>
+              Delivered React and Next.js screens, NestJS APIs, PostgreSQL data
+              work, RBAC flows, integrations and production support.
+            </p>
+          </article>
+          <article>
+            <span>2022 - 2024</span>
+            <h3>Full-Stack Developer - Statista</h3>
+            <p>
+              Built data-heavy TypeScript views, Node.js endpoints, shared UI
+              patterns and tested main product flows.
+            </p>
+          </article>
+          <article>
+            <span>2021 - 2022</span>
+            <h3>Frontend Developer - INCORA</h3>
+            <p>
+              Built responsive React interfaces from Figma designs, wired REST
+              APIs and grew from fixes into complete screens.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Open to full-stack roles around product engineering.</h2>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:riazantsev.work@seznam.cz">riazantsev.work@seznam.cz</a>
+          <a href="https://github.com/R1washere">github.com/R1washere</a>
+          <a href="https://linkedin.com/in/vlad-riazantsev">linkedin.com/in/vlad-riazantsev</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
