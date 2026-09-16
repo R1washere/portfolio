@@ -9,6 +9,7 @@ PostgreSQL.
 - `index.html` - main portfolio page
 - `styles.css` - responsive styling
 - `assets/` - project screenshots used on the page
+- `ROADMAP.md` - planned improvements and next portfolio iterations
 
 ## Featured Projects
 
